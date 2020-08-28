@@ -1,0 +1,38 @@
+.loader {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.movies {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.movies a {
+  all: unset;
+  cursor: pointer;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0;
+}
+
+.movies a:visited {
+  color: black;
+}

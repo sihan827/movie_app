@@ -1,0 +1,31 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  margin-top: 200px;
+  width: 30%;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 15px;
+  font-size: 17px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 5px;
+}
+
+.about span:first-child {
+  margin-bottom: 15px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.about span:last-child {
+  font-size: 20px;
+}
